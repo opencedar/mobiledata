@@ -1,0 +1,30 @@
+Codebook for HCI Data Analysis
+8/24/2014: Coursera Data Science Getting and Cleaning Data
+This data set was collected from 30 subjects carrying smartphones. The data make use of the 
+phones’ integrated antenna.
+Variable Name / Variable Type: Description
+*	subject /INT: 1-30, ID of each subject
+*	activity / CHAR: The activity the subject was doing
+For each of the below variables, {XYZ} indicates motion in the x-, y-, and z-planes. In other 
+words, there will be three variables.
+*	tBodyAcc-mean(){XYZ} / NUM: Mean of body acceleration
+*	tGravityAcc-mean(){XYZ} / NUM: Mean of gravitational acceleration
+*	tBodyAccJerk-mean(){XYZ} / NUM: Mean of acceleration jerk
+*	tBodyGyro-mean(){XYZ} / NUM: Mean of gyroscope jerk
+*	tBodyAccMag-mean() / NUM: Mean of acceleration magnitude
+*	tGravityAccMag-mean() / NUM: Mean of acceleration gravity magnitude
+*	tBodyAccJerkMag-mean() / NUM: Mean of the acceleration jerk magnitude
+*	tBodyGyroMag-mean() / NUM: Mean of gyroscope magnitude
+*	tBodyGyroJerkMag-mean() / NUM: Mean of gyroscope jerk magnitude
+The pattern repeats starting with “f” for frequency domain signals:
+*	fBodyAcc-mean(){XYZ} / NUM: Mean of body acceleration
+*	fGravityAcc-mean(){XYZ} / NUM: Mean of gravitational acceleration
+*	fBodyAccJerk-mean(){XYZ} / NUM: Mean of acceleration jerk
+*	fBodyGyro-mean(){XYZ} / NUM: Mean of gyroscope jerk
+*	fBodyAccMag-mean() / NUM: Mean of acceleration magnitude
+*	fGravityAccMag-mean() / NUM: Mean of acceleration gravity magnitude
+*	fBodyAccJerkMag-mean() / NUM: Mean of the acceleration jerk magnitude
+*	fBodyGyroMag-mean() / NUM: Mean of gyroscope magnitude
+*	fBodyGyroJerkMag-mean() / NUM: Mean of gyroscope jerk magnitude
+
+
